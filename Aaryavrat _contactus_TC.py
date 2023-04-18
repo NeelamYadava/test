@@ -10,6 +10,8 @@ driver.find_element("xpath","//input[@placeholder='Subject']").send_keys("ASD")
 driver.find_element("xpath","//textarea[@placeholder='Your Message']").send_keys("how to find therapist")
 driver.find_element("xpath","//input[@type='submit']").click()
 sleep(20)
+driver.add_cookie("New")
+# I put my comment here 
 
 # driver.find_element("xpath","//a[.='wecare@aaryavart.org']").click()
 # driver.find_element("xpath","//a[.='Book Appointment']").click()
